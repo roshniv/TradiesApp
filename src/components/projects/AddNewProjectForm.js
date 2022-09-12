@@ -86,7 +86,8 @@ AddNewProjectForm.propTypes = {
   errors: PropTypes.object,
   onSave: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
-  saving: PropTypes.bool
+  saving: PropTypes.bool,
+  date1: PropTypes.string
 };
 
 export default AddNewProjectForm;
