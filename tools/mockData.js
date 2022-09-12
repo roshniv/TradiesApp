@@ -1,45 +1,40 @@
 const projects = [
   {
     id: 1,
-    title: "Creating Reusable React Components",
-    slug: "react-creating-reusable-components",
-    category: "JavaScript"
+    title: "Painting a house",
+    slug: "painting-a-house",
+    lastDay: '2022-08-06',
   },
   {
     id: 2,
-    title: "React: The Big Picture",
-    slug: "react-big-picture",
-    category: "JavaScript",
+    title: "Grass Mowing",
+    slug: "grass-mowing",
+    lastDay: '2022-09-26',
     bids: [
       {
-        bidId: 1,
-        bidder: 'XXX',
+        bidder: 'YYY',
         hrate: 120
       }
     ]
   },
   {
     id: 3,
-    title: "Securing React Apps with Auth0",
-    details: "Securing React Apps with Auth0",
-    slug: "react-auth0-authentication-security",
-    category: "JavaScript",
+    title: "Plumbing issue",
+    details: "Plumber needed for few of the faults at home ",
+    slug: "plumbing-issue",
     hours: 8,
     lastDay: '2022-09-06',
     lastTime: '20:00',
     bids: [
       {
-        bidId: 1,
         bidder: "Adam",
         hrate: 120
       },
       {
-        bidId: 2,
         bidder: "Robert",
         hrate: 310
       },
       {
-        bidId: 3,
         bidder: "XXX",
         hrate: 112
       }
@@ -47,52 +42,44 @@ const projects = [
   },
   {
     id: 4,
-    title: "Building a JavaScript Development Environment",
-    slug: "javascript-development-environment",
-    category: "JavaScript"
+    title: "Cleaner needed",
+    slug: "cleaner-needed"
   },
   {
     id: 5,
-    title: "Building Applications with React and Redux",
-    slug: "react-redux-react-router-es6",
-    category: "JavaScript"
+    title: "House hold help needed",
+    slug: "house-hold-help-needed"
   },
   {
     id: 6,
-    title: "Building Applications in React and Flux",
-    slug: "react-flux-building-applications",
-    category: "JavaScript"
+    title: "Fence painting help",
+    slug: "fence-painting-help"
   },
   {
     id: 7,
-    title: "Clean Code: Writing Code for Humans",
-    slug: "writing-clean-code-humans",
-    category: "Software Practices"
+    title: "Caterer for a house party",
+    slug: "caterer-for-a-house-party"
   },
   {
     id: 8,
-    title: "Architecting Applications for the Real World",
-    slug: "architecting-applications-dotnet",
-    category: "Software Architecture"
+    title: "Looking for an architect for design review",
+    slug: "looking-for-an-architect-for-design-review"
   },
   {
     id: 9,
-    title: "Becoming an Outlier: Reprogramming the Developer Mind",
-    slug: "career-reboot-for-developer-mind",
-    category: "Career"
+    title: "Grass mowing needed in North Sydney",
+    slug: "grass-mowing-needed-in-nort-sydney"
   },
   {
     id: 10,
-    title: "Web Component Fundamentals",
-    slug: "web-components-shadow-dom",
-    category: "HTML5"
+    title: "Looking for a handyman refridgerator",
+    slug: "looking-for-a-handyman-refrigerator"
   }
 ];
 
 const newProject = {
   id: null,
-  title: "",
-  category: ""
+  title: ""
 };
 
 // Using CommonJS style export so we can consume via Node (without using Babel-node)
